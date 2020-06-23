@@ -18,9 +18,9 @@ This library does that.
 const Saferoom = require('@shieldsbetter/saferoom');
 
 const sr = new Saferoom({
-    validCharacters: '_&' + Saferoom.range('0', '9') +
+    encodingCodepoints: '_&' + Saferoom.range('0', '9') +
             Saferoom.range('A', 'Z') + Saferoom.range('a', 'z'),
-    escapeCharacter: '&'
+    escapeCodepoint: '&'
 });
 
 const encoded = sr.encode('key_2006-15-09T06:43:02+9000');
