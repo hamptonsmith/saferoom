@@ -12,7 +12,7 @@ your latest tormentor has saddled you with.
 
 This library does that.
 
-# TL;DR.
+# TL;DR
 
 ```javascript
 const Saferoom = require('@shieldsbetter/saferoom');
