@@ -12,7 +12,7 @@ your latest tormentor has saddled you with.
 
 This library does that.
 
-# TL;DR;
+# TL;DR.
 
 ```javascript
 const Saferoom = require('@shieldsbetter/saferoom');
@@ -52,3 +52,6 @@ fields:
 * `escapeCodepoint` - a single codepoint to be used to set off esape sequences.
   It is an error for this codepoint to be missing from `encodingCodepoints`.
   Default: `encodingCodepoints.codePointAt(0)`.
+  
+Note that the encoding format is dynamic based on these parameters and thus
+the decoder and encoder must be configured the same.
